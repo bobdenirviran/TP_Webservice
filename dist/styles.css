@@ -1,0 +1,9 @@
+#add-event{bottom:0;right:0;position:fixed;display:flex}
+input{margin:5px;padding:5px}
+input[type=submit]{cursor:pointer}
+#events{display:flex;justify-content:space-around;flex-wrap:wrap}
+.event{position:relative;width:250px;height:250px;padding:20px;margin:20px;text-align:center;background:#87b5ff;-webkit-box-shadow:10px 10px 5px 0 rgba(0,0,0,.75);-moz-box-shadow:10px 10px 5px 0 rgba(0,0,0,.75);box-shadow:10px 10px 5px 0 rgba(0,0,0,.75)}
+.event .edit,.event .remove{position:absolute;cursor:pointer;top:5px}
+.event h4{font-size:22px;text-transform:capitalize}
+.event .remove{right:5px}
+.event .edit{right:20px}
